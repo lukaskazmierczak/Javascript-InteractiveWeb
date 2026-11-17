@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Space Impact</title>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+<script src="collision.js"></script>
+<body>
+  <h1 class="heading">Space Impact</h1>
+  <h1 id="score">0</h1>
+   <div id="game">
+ <img src="spaceship.png" id="myShip">
+ </div>
+  <audio src="music.mp3" loop controls></audio>
+
+
+  <script>
+    var score = 0;
+    var missileNo = 0
+    function addmissile() {
+			var missile = "<img src='missile.png' class='missile'>";
+      var newMissile = $(missile).attr('id', 'M' + missileNo);
+			$('#game').append(newMissile);
+
+			var shipLocation = $('#myShip').position();
+			var shipWidth = $('#myShip').width();
+
+			var missileCSS = {
+				'left': shipLocation.left + shipWidth/2,
+				'top': shipLocation.top
+			}
+			$('#M' + missileNo).css(missileCSS);
+
+			var fire = {
+				'top': '-100px'
+      }
+      $('#M' + missileNo).animate(fire, 1500);
+			
+			missileNo++;
+		}
+var enemy = "<img src='enemy.png' class='enemy'>";
+ var totalEnemies = 10;
+ for (var i=0; i<totalEnemies; i++) {
+   var enemyId = 'enemy' + i;
+   var newEnemy = $(enemy).attr('id', enemyId);
+   $('#game').append(newEnemy);
+   var randomLeft = Math.random() * 1100;
+   var randomDelay = Math.random() * 30;
+   var enemyCSS = {
+   'left': randomLeft + 'px',
+   'animation-delay': randomDelay + 's'
+
+   }
+   $(newEnemy).css(enemyCSS);
+ }
+   function checkKey(event) {
+      var keyPressed = event.code;
+      if (keyPressed == 'ArrowRight') {
+        var rightCSS = {
+          'left': '+=20px'
+        }
+        $("#myShip").css(rightCSS);
+      } else if (keyPressed == 'ArrowLeft') {
+        var leftCSS = {
+          'left': '-=20px'
+        }
+        $("#myShip").css(leftCSS);
+      } 
+     else if (keyPressed == 'Space') {
+        addmissile()
+      } 
+}
+
+$(document).keydown(checkKey);
+    
+function checkCollision() {
+      var collided = collision($('.enemy'), $('.missile'));
+      if (collided) {
+         $(collided).remove();
+        score = score + 1
+        $("#score").text(score);
+      }
+   }
+
+   setInterval(checkCollision, 10);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+html {
+    width:100%;
+    height:100%;
+		margin: 0;
+		padding: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#game {
+    width:1200px;
+    height:600px;
+    margin:auto;
+    position:relative;
+    overflow: hidden;
+    border:10px solid black;
+    background-image: url("pandora.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#myShip{
+    width:100px;
+    height:auto;
+    transition:all .1s linear;
+    position:absolute;
+    left:600px;
+    bottom: 10px;
+}
+
+.enemy {
+    position: absolute;
+    width:50px;
+    animation: 30s moveDown infinite;
+    animation-timing-function: linear;
+		top: -100px;
+}
+
+.missile {
+    height:25px;
+    border-radius:500px;
+    position:absolute;
+}
+
+#score{
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.heading{
+    color:white;
+    text-align:center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36px;
+    margin: 20px;
+}
+
+@keyframes moveDown {
+    from {
+        top:0px;
+    }
+    to {
+        top:1000px;
+    }
+}
