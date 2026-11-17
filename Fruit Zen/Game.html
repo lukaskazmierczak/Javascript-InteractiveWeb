@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fruit Zen</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="heading">Username's Fruit Zen</h1>
+  <div class = "container"> 
+  <div class = "slot" id = "one"></div>
+  <div class = "slot" id = "two"></div>
+  <div class = "slot" id = "three"></div>
+  <button id="btn" onclick="stop()">Stop</button>
+    <div id='gameover' ></div>
+    </div>
+  <audio src="win.mp3" id="winSound"> </audio>
+  <audio src="lose.mp3" id="loseSound"> </audio>
+  <audio id="music" src="music.mp3" loop></audio>
+ <button id="musicBtn" onclick="document.getElementById('music').play()">
+ Play Sound
+ </button>
+
+  <script>
+  var username = prompt("What is your username?")
+  var bob = username + "'s Fruit Zen";
+  document.getElementById("heading").innerHTML = bob;
+  var fruits = ['apple.png',
+             'pineapple.png',
+             'cherry.png',
+             'orange.png',
+             'watermelon.png',
+             'pear.png',
+             'banana.png'];
+	function randomfruit () {
+      var last = fruits.length;
+      var inputvalue = last - 1;
+      var num = Math.random() * inputvalue
+      var round = Math.round(num)
+      return fruits[round];
+    }
+	function randomize(){
+      var fruit1 = randomfruit();
+      var onehtml = "<img src=" + fruit1 + ">";
+      document.getElementById("one").innerHTML = onehtml;
+      var fruit2 = randomfruit();
+      var twohtml = "<img src=" + fruit2 + ">";
+      document.getElementById("two").innerHTML = twohtml;
+      var fruit3 = randomfruit();
+      var threehtml = "<img src=" + fruit3 + ">";
+      document.getElementById("three").innerHTML = threehtml;
+    }
+    randomize()
+    function stop() {
+      document.getElementById('music').pause();
+      clearInterval(randominterval);
+      var one = document.getElementById("one").innerHTML;
+      var two = document.getElementById("two").innerHTML;
+      var three = document.getElementById("three").innerHTML;
+      if (one == two && two == three){
+      document.getElementById("heading").textContent = "You won";
+        document.getElementById("winSound").play();
+      } else {
+      document.getElementById("heading").textContent = "Better luck next time!";
+        document.getElementById("loseSound").play();
+      }
+       document.getElementById("gameover").innerHTML = "<button id='btn' onclick='restart();'>Try Again </button>"
+    }
+    function restart() {
+			document.getElementById('music').play();
+      document.getElementById('heading').innerHTML = name + "'s Fruit Zen";
+      randominterval = setInterval(randomize, 300);
+			document.getElementById("gameover").innerHTML = "";
+    
+      
+    }
+    var randominterval = setInterval(randomize, 300);
+    
+  </script>
+</body>
+
+</html>
