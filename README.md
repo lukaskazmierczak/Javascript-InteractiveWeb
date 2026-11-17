@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-This repository showcases three capstone projects developed during the CodeWizardsHQ Level II Web Development course sequence. The four-course program advanced my web development skills through responsive design, JavaScript programming, and interactive web applications. The capstone brought these concepts together through three projects demonstrating front-end development and user interface design.
+This repository showcases three capstone projects developed during the CodeWizardsHQ Level II Web Development course sequence completed in June 2024. The four-course program advanced my web development skills through responsive design, JavaScript programming, and interactive web applications. The capstone brought these concepts together through three projects demonstrating front-end development and user interface design.
 
 **Technical Skills** 
 
