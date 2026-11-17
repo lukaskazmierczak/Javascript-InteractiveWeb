@@ -13,7 +13,7 @@ This repository showcases a few ullustrive projects developed during the CodeWiz
 **APIs:** Integrating external data and services into web applications <br>
 **Cookies:** Storing and retrieving browser-based application data <br>
 
-**Featured Capstone Projects**
+**Featured Projects**
 
 >[Project 1 - Space Impact — JavaScript Arcade Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Space%20Impact)
 >Developed an interactive, browser-based space shooter using HTML, CSS, JavaScript, and jQuery. Players control a spaceship with the arrow keys and fire missiles at animated enemy ships. The game features randomized enemy positioning, collision detection, dynamic object creation, and real-time score tracking. <br>
