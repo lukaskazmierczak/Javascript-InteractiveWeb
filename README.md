@@ -1,4 +1,4 @@
-# Interactive Web Development | CodeWizardsHQ Level II Capstone
+# Interactive Web Development | CodeWizardsHQ Level II
 
 **Project Overview**
 
