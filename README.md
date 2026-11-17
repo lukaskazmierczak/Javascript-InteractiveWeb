@@ -2,10 +2,9 @@
 
 **Project Overview**
 
-This repository showcases three capstone projects developed during the CodeWizardsHQ Level II Web Development course sequence.
-The four-course program advanced my web development skills through responsive design, JavaScript programming, and interactive web applications. The capstone brought these concepts together through three projects demonstrating front-end development and user interface design.
+This repository showcases three capstone projects developed during the CodeWizardsHQ Level II Web Development course sequence. The four-course program advanced my web development skills through responsive design, JavaScript programming, and interactive web applications. The capstone brought these concepts together through three projects demonstrating front-end development and user interface design.
 
-**Technical Skills**
+**Technical Skills** 
 
 **HTML & CSS:** Webpage structure, styling, and responsive layouts <br>
 **JavaScript:** Interactive functionality, event handling, and dynamic web applications <br>
@@ -17,20 +16,16 @@ The four-course program advanced my web development skills through responsive de
 **Featured Capstone Projects**
 
 >Capstone Project 1 — Project Name
-
 >[Describe the application's purpose, main features, and technical concepts demonstrated.]
 
 >Capstone Project 2 — Project Name
-
 >[Describe the interactive functionality, responsive design features, and development challenges.]
 
 >Capstone Project 3 — Project Name
-
 >[Describe the application's user interface, functionality, and any APIs or JavaScript features used.]
 
 **Program Details**
 
-Program: CodeWizardsHQ — Level II
-Course Sequence: Responsive Web Development → Interactive JavaScript → Web Interfaces → Level II Capstone
-Technologies Covered: HTML, CSS, JavaScript, jQuery, AJAX, Flexbox
-Capstone Deliverables: Three interactive web development projects
+Program: CodeWizardsHQ — Level II <br>
+Course Sequence: Responsive Web Development → Interactive JavaScript → Web Interfaces → Level II Capstone <br>
+Technologies Covered: HTML, CSS, JavaScript, jQuery, AJAX, Flexbox <br>
