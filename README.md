@@ -26,5 +26,5 @@ This repository showcases a few ullustrive projects developed during the CodeWiz
 **Program Details**
 
 Program: CodeWizardsHQ — Level II <br>
-100 Hours of Coding Course Sequence: Responsive Web Development → Interactive JavaScript → Web Interfaces → Level II Capstone <br>
+100 Hour Coding Course Sequence: Responsive Web Development → Interactive JavaScript → Web Interfaces → Level II Capstone <br>
 Technologies Covered: HTML, CSS, JavaScript, jQuery, AJAX, Flexbox <br>
