@@ -16,11 +16,11 @@ This repository showcases a few ullustrive projects developed during the CodeWiz
 **Featured Capstone Projects**
 
 >[Project 1 - Space Impact — JavaScript Arcade Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Space%20Impact)
->Developed an interactive, browser-based space shooter using HTML, CSS, JavaScript, and jQuery. Players control a spaceship with the arrow keys and fire missiles at animated enemy ships. The game features randomized enemy positioning, collision detection, dynamic object creation, and real-time score tracking.
+>Developed an interactive, browser-based space shooter using HTML, CSS, JavaScript, and jQuery. Players control a spaceship with the arrow keys and fire missiles at animated enemy ships. The game features randomized enemy positioning, collision detection, dynamic object creation, and real-time score tracking. <br>
 >Technical Skills: JavaScript, HTML, CSS, jQuery, DOM manipulation, keyboard event handling, collision detection, animation, randomization, loops, and game logic.
 
 >[Project 2 — Fruit Zen — Interactive JavaScript Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Fruit%20Zen)
->Developed a browser-based, slot-machine-style game using HTML, CSS, and JavaScript. The game continuously randomizes three fruit images until the player stops the animation, then evaluates matching combinations to determine the outcome. Features personalized usernames, sound effects, background music, and a replay option.
+>Developed a browser-based, slot-machine-style game using HTML, CSS, and JavaScript. The game continuously randomizes three fruit images until the player stops the animation, then evaluates matching combinations to determine the outcome. Features personalized usernames, sound effects, background music, and a replay option. <br>
 >Technical Skills: JavaScript, HTML, CSS, DOM manipulation, arrays, randomization, conditional logic, event handling, and timed animations.
 
 **Program Details**
