@@ -15,13 +15,13 @@ This repository showcases three capstone projects developed during the CodeWizar
 
 **Featured Capstone Projects**
 
->Capstone Project 1 — Project Name
+>Project 1 — Pixie Pals
 >[Describe the application's purpose, main features, and technical concepts demonstrated.]
 
->Capstone Project 2 — Project Name
+>Project 2 — Dragon Crusade
 >[Describe the interactive functionality, responsive design features, and development challenges.]
 
->Capstone Project 3 — Project Name
+>Project 3 — Harmony Wildlife Santuary
 >[Describe the application's user interface, functionality, and any APIs or JavaScript features used.]
 
 **Program Details**
