@@ -15,17 +15,9 @@ This repository showcases three capstone projects developed during the CodeWizar
 
 **Featured Capstone Projects**
 
->[Project 1 — Fruit Zen — Interactive JavaScript Game]()
+>[Project 1 — Fruit Zen — Interactive JavaScript Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Fruit%20Zen)
 >Developed a browser-based, slot-machine-style game using HTML, CSS, and JavaScript. The game continuously randomizes three fruit images until the player stops the animation, then evaluates matching combinations to determine the outcome. Features personalized usernames, sound effects, background music, and a replay option.
 >Technical Skills: JavaScript, HTML, CSS, DOM manipulation, arrays, randomization, conditional logic, event handling, and timed animations.
-
-View Source Code
-
->Project 2 — Dragon Crusade
->[Describe the interactive functionality, responsive design features, and development challenges.]
-
->Project 3 — Harmony Wildlife Santuary
->[Describe the application's user interface, functionality, and any APIs or JavaScript features used.]
 
 **Program Details**
 
