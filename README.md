@@ -16,6 +16,7 @@ This repository showcases a few ullustrive projects developed during the CodeWiz
 **Featured Projects**
 
 >[Project 1 - Space Impact — JavaScript Arcade Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Space%20Impact)
+><img align="left" width="85" height="85" alt="space_impact_gameplay_square" src="https://github.com/user-attachments/assets/53b2c7a8-270a-4446-899c-20b6b7e0b91d" />
 >Developed an interactive, browser-based space shooter using HTML, CSS, JavaScript, and jQuery. Players control a spaceship with the arrow keys and fire missiles at animated enemy ships. The game features randomized enemy positioning, collision detection, dynamic object creation, and real-time score tracking. <br>
 >Technical Skills: JavaScript, HTML, CSS, jQuery, DOM manipulation, keyboard event handling, collision detection, animation, randomization, loops, and game logic.
 
