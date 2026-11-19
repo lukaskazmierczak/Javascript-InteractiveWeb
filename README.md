@@ -22,7 +22,7 @@ This repository showcases a few ullustrive projects developed during the CodeWiz
 
 >[Project 2 — Fruit Zen — Interactive JavaScript Game](https://github.com/lukaskazmierczak/Javascript_Interactive_Web/tree/main/Fruit%20Zen)
 ><img align="left" width="90" height="81.25" alt="lukas_fruit_zen_portfolio" src="https://github.com/user-attachments/assets/e27235fe-f0b4-452a-b028-41bb5f41e3b6" />
->Developed a browser-based, slot-machine-style game using HTML, CSS, and JavaScript. The game continuously randomizes three fruit images until the player stops the animation, then evaluates matching combinations to determine the outcome. Features personalized usernames, sound effects, background music, and a replay option. <br>
+>Developed a browser-based, slot-machine-style game using HTML, CSS, and JavaScript. The game continuously randomizes three fruit images until the player stops the animation, then evaluates matching combinations to determine the outcome. Features personalized usernames, sound effects, background music, and replay. <br>
 >Technical Skills: JavaScript, HTML, CSS, DOM manipulation, arrays, randomization, conditional logic, event handling, and timed animations.
 
 **Program Details**
